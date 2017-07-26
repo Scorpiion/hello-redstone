@@ -4,8 +4,8 @@ description: A web server built using the redstone package.
 author: Robert Åkerblom-Andersson <robert@sourcevoid.com>
 homepage: https://www.sourcevoid.com
 
-environment:
-  sdk: '>=1.0.0 <1.18.0'
+#environment:
+#  sdk: '>=1.0.0 <1.18.0'
 
 dependencies:
   args: '>=0.10.0 <0.14.0'
