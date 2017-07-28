@@ -2,8 +2,7 @@ runtime: dart
 version: latest
 
 build:
-  - git clone https://github.com/Sourcevoid/sourcevoid_client
-  - pub get
+  - ./build.bash
 
 start: dart bin/server.dart
 
