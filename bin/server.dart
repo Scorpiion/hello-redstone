@@ -2,7 +2,7 @@ import 'package:redstone/redstone.dart' as app;
 
 @app.Route("/")
 @app.Route("/dart")
-helloWorld() => "Test 4";
+helloWorld() => "Test 5";
 
 void main() {
   app.setupConsoleLog();
