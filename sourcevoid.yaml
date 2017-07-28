@@ -1,0 +1,9 @@
+runtime: dart
+version: latest
+
+build:
+  - git clone https://github.com/Sourcevoid/sourcevoid_client
+  - pub get
+
+start: dart bin/server.dart
+
