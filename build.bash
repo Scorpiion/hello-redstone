@@ -1,10 +1,6 @@
 #!/bin/bash
 
-echo "Sleeping 240"
-sleep 240
 
-echo "Sleeping 10"
-sleep 10
 
 echo "mount"
 mount
