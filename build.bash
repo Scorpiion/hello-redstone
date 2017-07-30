@@ -1,30 +1,36 @@
 #!/bin/bash
 
-
-
-echo "mount"
-mount
-
 echo "ls -lta /home/cuser"
 ls -lta /home/cuser
+echo ""
 
 echo "ls -lta /home/cuser/tokens"
 ls -lta /home/cuser/tokens
+echo ""
 
 echo "cat /home/cuser/tokens/.git-credentials"
 cat /home/cuser/tokens/.git-credentials
+echo ""
 
 echo "git config --global --list"
 git config --global --list
+echo ""
+
+echo "cat /etc/gitconfig"
+cat /etc/gitconfig
+echo ""
 
 echo "git clone https://github.com/Sourcevoid/sourcevoid_client"
 git clone https://github.com/Sourcevoid/sourcevoid_client
+echo ""
 
 echo "git clone git@github.com:Scorpiion/hello-redstone.git"
 git clone git@github.com:Scorpiion/hello-redstone.git
+echo ""
 
 echo "pub get"
 pub get
+echo ""
 
 
 exit 0 
